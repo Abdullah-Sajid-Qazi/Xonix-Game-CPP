@@ -1,5 +1,4 @@
 # Xonix Game
-# M.Asad (24I-2122), Abdullah Sajid (24I-2101)
 
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -I./header -I./data_structures
