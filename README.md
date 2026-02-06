@@ -2,21 +2,6 @@
 
 A modern implementation of the classic Xonix arcade game built with C++ and SFML, featuring custom data structures, multiplayer support, and comprehensive game management systems.
 
-
-## �📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Data Structures](#data-structures)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Building the Project](#building-the-project)
-- [How to Play](#how-to-play)
-- [Project Structure](#project-structure)
-- [Game Modes](#game-modes)
-- [Technical Details](#technical-details)
-- [Contributing](#contributing)
-
 ## 🎮 Overview
 
 Xonix is a classic arcade game where players control a marker on a rectangular grid, attempting to claim territory by drawing lines. This implementation features custom data structures and demonstrates efficient game development practices.
