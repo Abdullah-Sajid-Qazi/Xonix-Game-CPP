@@ -1,0 +1,188 @@
+# Xonix Game - .gitignore
+# Excludes build artifacts, saves, and system files
+
+# Compiled Object Files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+Xonix.exe
+Xonix
+
+# Compiled Dynamic Libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static Libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Build directories
+obj/
+build/
+bin/
+debug/
+release/
+
+# Dependency files
+*.d
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Save files (personal game progress)
+data/saves/*.sav
+data/saves/index_*.txt
+
+# Player data files (contains user information)
+data/AllPlayers.txt
+data/[0-9].txt
+data/[0-9][0-9].txt
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CLion / IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+cmake-build-*/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# OS Generated files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Log files
+*.log
+
+# Core dumps
+core
+core.*
+
+# Package files
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# SFML specific
+sfml-*.dll
+
+# Build system files
+.cache/
+compile_commands.json
+
+# Documentation build
+docs/_build/
+*.pdf
+
+# Test results
+test_results/
+*.test
+
+# Profiler output
+*.prof
+gmon.out
+
+# Coverage reports
+*.gcov
+*.gcda
+*.gcno
+
+# Don't ignore asset directories (keep these)
+!assets/
+!assets/backgrounds/
+!assets/fonts/
+!assets/images/
+!assets/Sounds/
+
+# But ignore large binary assets if needed (uncomment if assets are too large)
+# assets/**/*.mp3
+# assets/**/*.wav
+# assets/**/*.ogg
+# assets/**/*.png
+# assets/**/*.jpg
+
+# Keep empty directories
+!.gitkeep
+
+# Keep sample data files (create examples)
+!data/README.md
+!data/saves/README.md
