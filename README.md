@@ -2,10 +2,6 @@
 
 A modern implementation of the classic Xonix arcade game built with C++ and SFML, featuring custom data structures, multiplayer support, and comprehensive game management systems.
 
-## � Authors
-
-- **M.Asad** (24I-2122)
-- **Abdullah Sajid** (24I-2101)
 
 ## �📋 Table of Contents
 
