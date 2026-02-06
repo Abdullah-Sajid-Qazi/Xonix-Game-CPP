@@ -288,3 +288,13 @@ For questions, suggestions, or issues:
 - [ ] Replay system
 - [ ] Achievement system
 - [ ] Custom themes and skins
+
+## 📝 Note
+
+This project was developed to demonstrate practical implementation of custom data structures in C++. All core data structures (Hash Table, Linked List, Stack) are implemented from scratch without using STL containers, showcasing fundamental concepts of memory management and algorithmic design.
+
+**Built with:** C++17, SFML 2.5+, Custom Data Structures  
+**Repository:** [Xonix-Game-CPP](https://github.com/Abdullah-Sajid-Qazi/Xonix-Game-CPP)  
+**License:** Open Source
+
+⭐ If you find this project helpful, please consider giving it a star on GitHub!
